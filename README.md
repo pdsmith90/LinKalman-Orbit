@@ -2,10 +2,18 @@
 
 Undergraduate Capstone project 
 
+Matlab
+
+
 includes:
 
-  -coord transformation script;
+  *Coordinate transformation script (CoordTransform.m)
   
-  -RK4 propagator;
+  *RK4 propagator (OrbitPropagate.m)
   
-  -Kalman Filter;
+  *Kalman Filter (LinKalman.m)
+
+  *Wrapper script (OPKShell.m) with .txt file inputs (OPK Inputs.txt & OPK PhysProps.txt)
+  
+
+Runs from OPKshell.m
