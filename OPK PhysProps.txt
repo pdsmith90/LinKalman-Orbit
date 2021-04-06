@@ -1,0 +1,36 @@
+%
+% Orbit Propogation and Kalman Filtering Simulation Shell Input Physical properties
+% 
+% Note: can't be open when running the Shell.
+%       Also, don't use word wrap.
+%
+% Line 1: mu
+% Line 2: J2
+% Line 3: Re
+% 
+% Line 4: GPS position error
+% Line 5: GPS velocity error
+% Line 6: GPS measurement precision
+% Line 7: GPS acquision rate
+%
+%
+% Each newline is a new variable
+%
+%
+%mu, km^3/s^2
+398600
+%J2, 
+%0.001083
+0
+%Re, km
+6378
+%sigma pos, m RMS
+%1.5
+0
+%sigma vel, m/s RMS
+%0.03
+0
+%measurement precision, m RMS
+0.01
+%acquision rate, Hz
+20

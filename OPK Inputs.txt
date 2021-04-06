@@ -1,0 +1,21 @@
+%
+% Orbit Propogation and Kalman Filtering Simulation Shell Input conditions
+% 
+%
+% Column 1: Run number
+% 
+% Column 2-3: Orbital Inputs:
+% Type of Initial condition , Initial condition,
+% 
+% Column 4-5:Kalman Inputs:
+% Type of Kalman Initial guess , Kalman Initial guess,
+% 
+% Column 6-8:Propagation Inputs:
+% starting time as datevec [Y M D H M S], time step size, simulation run time, both in seconds
+%
+% The columns are tab delimited, each newline is a new propagation.
+%
+%
+%run	oitype	oi				kitype	ki				st 				dt	rt
+1	ECI	[[0,3000,7000];[7,0,0]]		ECI	[[0,3000,7000];[7,0,0]]		[2012, 12, 21, 13, 45, 00]	200	1000000	
+2	OE	[0.72,26599,-63.4,0,-90,0]	OE	[0.72,26599,-63.4,0,-90,0]	[2012, 12, 21, 13, 45, 00]	200	1000000
