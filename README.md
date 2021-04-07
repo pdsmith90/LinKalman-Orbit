@@ -13,4 +13,8 @@ includes:
   *Wrapper script (OPKShell.m) with .txt file inputs (OPK Inputs.txt & OPK PhysProps.txt)
   
 
-Runs from OPKshell.m
+missing some scripts not written by me:
+ *ADCSrun.m
+ *orbitRK4.m
+
+
