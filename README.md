@@ -1,6 +1,6 @@
 # LinKalman-Orbit
 
-Undergraduate Capstone project 
+my contribution to undergraduate capstone project
 
 Matlab
 
@@ -9,7 +9,7 @@ includes:
 
   *Coordinate transformation script (CoordTransform.m)
   
-  *RK4 propagator (OrbitPropagate.m)
+  *Orbit propagator (OrbitPropagate.m)
   
   *Kalman Filter (LinKalman.m)
 
