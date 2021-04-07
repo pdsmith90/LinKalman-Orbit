@@ -2,9 +2,6 @@
 
 my contribution to undergraduate capstone project
 
-Matlab
-
-
 includes:
 
   *Coordinate transformation script (CoordTransform.m)
